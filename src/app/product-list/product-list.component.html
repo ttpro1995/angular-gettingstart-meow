@@ -5,7 +5,7 @@
   <h3>
     <!-- property binding -->
     <a [title]="product.name + ' detail'" 
-     [routerLink] = "['/products', productId]">
+     [routerLink]="['/products', product.productId]">
       {{ product.name }}
       </a>
   </h3>
